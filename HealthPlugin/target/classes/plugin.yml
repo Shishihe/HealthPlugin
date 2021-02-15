@@ -1,0 +1,16 @@
+name: HealthPlugin
+version: 1.0
+main: healthplugin.healthplugin.Main
+api-version: 1.16
+authors: [ Shishihe ]
+description: This plugin allows you to set players health.
+commands:
+  hphelp:
+    description: 'Shows commands. Usage: /hphelp'
+    permission: healthplugin.help
+  hpset:
+    description: 'Sets players hp'
+    permission: healthplugin.hpset
+  heal:
+    description: 'Heals players'
+    permission: healthplugin.heal
