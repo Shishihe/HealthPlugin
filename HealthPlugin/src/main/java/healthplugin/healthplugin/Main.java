@@ -10,6 +10,7 @@ public final class Main extends JavaPlugin {
         getCommand("heal").setExecutor(new HealCommand());
         getCommand("hpset").setExecutor(new HpSetCommand());
         getCommand("hphelp").setExecutor(new HpHelpCommand());
+        getCommand("feed").setExecutor(new FeedCommand());
     }
 
     @Override

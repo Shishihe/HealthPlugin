@@ -14,3 +14,6 @@ commands:
   heal:
     description: 'Heals players'
     permission: healthplugin.heal
+  feed:
+    description: 'Feed players'
+    permission: healthplugin.feed

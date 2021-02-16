@@ -16,7 +16,9 @@ public class HpHelpCommand implements CommandExecutor {
                 player.sendMessage(ChatColor.LIGHT_PURPLE + "Commands of HealthPlugin: \n"
                         + ChatColor.LIGHT_PURPLE + "/hphelp " + ChatColor.GRAY + "- Shows command list. Usage: /hphelp \n"
                         + ChatColor.LIGHT_PURPLE + "/heal " + ChatColor.GRAY + "- Heals player. Usage: /heal <Player> \n"
-                        + ChatColor.LIGHT_PURPLE + "/hpset " + ChatColor.GRAY + "- Set player's hp. Usage: /hpset <hp (min: 1 max: 20)> <Player> \n");
+                        + ChatColor.LIGHT_PURPLE + "/hpset " + ChatColor.GRAY + "- Set player's hp. Usage: /hpset <hp (min: 1 max: 20)> <Player> \n"
+                        + ChatColor.LIGHT_PURPLE + "/feed " + ChatColor.GRAY + "- Feeds player. Usage: /feed <Player> \n"
+                );
             } else {
                 player.sendMessage(ChatColor.RED + "You don't have permission to use this command.");
             }
